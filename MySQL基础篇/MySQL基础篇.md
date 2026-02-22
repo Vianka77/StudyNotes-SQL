@@ -26,6 +26,7 @@ DML：数据操作语言。INSERT插入/DELEGTE删除一行（和drop不同）/U
 DCL：数据控制语言。COMMIT 提交（这个数据修改就是永久的）/ROLLBACK撤销（改完以后觉得不行，就撤销返回回去）/SAVEPOINT事务（之后再讲）/GRANT/REVOKE
 
 
+
 ## 1. SQL语言的规则和规范
 
 ### 1) 基本规则
