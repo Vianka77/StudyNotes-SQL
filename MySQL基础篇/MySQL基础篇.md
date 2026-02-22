@@ -19,6 +19,13 @@ set FOREIGN_KEY_CHECKS=1;  #在导入后恢复检查外键约束
 
 # 第三章_最基本的SELECT语句
 
+听课笔记：
+1、SQL的分类
+DDL：数据定义语言。CREATE/ ALTER 修改/ DROP删除数据库、表等/ RENAME 重命名/ TRUNCATE 清空表的数据 但表结构不变
+DML：数据操作语言。INSERT插入/DELEGTE删除一行（和drop不同）/UPDATE可以更新内容 这样就不用delete之后再重新插入了/SELECT查询
+DCL：数据控制语言。COMMIT 提交（这个数据修改就是永久的）/ROLLBACK撤销（改完以后觉得不行，就撤销返回回去）/SAVEPOINT事务（之后再讲）/GRANT/REVOKE
+
+
 ## 1. SQL语言的规则和规范
 
 ### 1) 基本规则
